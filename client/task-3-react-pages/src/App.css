@@ -1,0 +1,68 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #1e293b;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #93c5fd;
+}
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  background-color: #1e293b;
+  color: white;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin: 15px;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  nav {
+    gap: 12px;
+    padding: 16px 10px;
+  }
+
+  main {
+    padding: 24px 12px;
+  }
+}
