@@ -65,4 +65,18 @@ button:hover {
   main {
     padding: 24px 12px;
   }
+}@
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+html {
+  overflow-x: hidden;
 }
